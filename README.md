@@ -4,8 +4,6 @@ Overview
 This repository contains the design, schema, and implementation scripts for an analytical Data Warehouse (DWH) for Monobank, a digital bank. The primary goal of this DWH is to transform raw operational data into clean, reliable, and business-ready insights.
 The architecture is designed to support a wide range of analytical use cases, from daily operational reporting to complex behavioral analysis and strategic decision-making.
 
-Core Design Principles
-Layered "Medallion" Architecture (Bronze → Silver → Gold)
 The DWH is structured into three distinct layers. This separation of concerns is a core design choice that ensures data quality, traceability, and scalability.
 
 Raw Layer (Bronze):
